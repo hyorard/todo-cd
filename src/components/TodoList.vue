@@ -1,13 +1,13 @@
 <template>
   <div>
       <ul>
-          <li v-for="(Item,index) in Items" v-bind:key="Item.name" v-bind:class="{finished: Item.finished, unfinished: !Item.finished}">
-			  <i class="far fa-check-square" v-on:click="toggleItem(Item,index)"></i>
-              {{Item.name}}
-			  <span class="rmContainer">
-			    <i class="fas fa-minus-circle deleteBtn" v-on:click="removeItem(Item,index)"></i>
-			  </span>
-		  </li>
+        <li v-for="(Item,index) in Items" v-bind:key="Item.name" v-bind:class="{finished: Item.finished, unfinished: !Item.finished}">
+			<i class="far fa-check-square" v-on:click="toggleItem(Item,index)"></i>
+            {{Item.name}}
+			<span class="rmContainer">
+			  <i class="fas fa-minus-circle deleteBtn" v-on:click="removeItem(Item,index)"></i>
+			</span>
+		</li>
       </ul>
   </div>
 </template>
