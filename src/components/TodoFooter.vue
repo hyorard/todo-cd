@@ -1,8 +1,6 @@
 <template>
   <div>
-      <button v-on:click="clearAll">
-          clear all
-      </button>
+    <i v-on:click="clearAll" class="fas fa-dumpster"></i>
   </div>
 </template>
 
