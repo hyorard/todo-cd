@@ -63,7 +63,7 @@ export default {
 <style>
 body {
 	text-align: center;
-	background: linear-gradient(to right, #0d87ac, #336d3d);
+	background: linear-gradient(to right, #0d87ac, limegreen);
 	font-family: 'Chilanka', cursive;
 }
 
