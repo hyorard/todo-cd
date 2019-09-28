@@ -1,3 +1,5 @@
 # todo-cd
 
-netlify에 배포
+## continuos deployment
+
+todo 앱을 netlify에 배포!!
